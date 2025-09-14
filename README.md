@@ -18,7 +18,6 @@ O pipeline foi construído utilizando uma arquitetura moderna e containerizada c
 - **Data Warehouse**:
   - Um banco de dados **PostgreSQL**, rodando em um contêiner Docker separado, serve como o Data Warehouse de destino, onde os dados são consolidados.
 
-![Diagrama da Arquitetura](diagrama.png)
 
 ## Pré-requisitos
 

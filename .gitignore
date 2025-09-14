@@ -1,0 +1,46 @@
+# Esta pasta conterá os dados extraídos, que não devem ir para o repositório.
+/data_lake/
+
+# Ignorar arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Ambientes Virtuais Python
+.venv/
+venv/
+.env
+.env.*
+ENV/
+env/
+Lib/
+lib/
+
+# Ignorar arquivos e diretórios de logs, logs do Airflow, caso sejam montados localmente
+*.log
+logs/
+
+# Arquivos do PostgreSQL
+data/
+pg_log/
+
+# Arquivos de configuração local (ex: .env)
+.env
+.env.*
+secret.yaml
+
+# Arquivos gerados pelo IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar dados, arquivos e diretórios do do banco de dados do Docker
+.dockerignore
+docker-compose.logs/
+db/
+dbdata/
